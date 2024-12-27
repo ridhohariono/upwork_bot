@@ -1,0 +1,19 @@
+[
+    {
+        "firstName": "Michel",
+        "lastName": "Miller",
+        "email": "",
+        "password": "",
+        "imageUrl": null,
+        "emailVerified": null,
+        "streetAddress": "819 Homestead",
+        "city": "Toronto",
+        "state": "Ontario",
+        "zip": "M4B 1B6",
+        "phone": "18004277973",
+        "country": "Canada",
+        "dateOfBirth": "12/02/1998",
+        "registeredDate": null,
+        "registrationComple": 0
+    }
+]

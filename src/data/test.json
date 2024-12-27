@@ -1,0 +1,53 @@
+[
+    {
+        "firstName": "Arthur",
+        "lastName": "Miller",
+        "email": "arthur_miller1735335719698@freesourcecodes.com",
+        "password": "?>79#_^s$oY~R4U",
+        "imageUrl": null,
+        "emailVerified": null,
+        "streetAddress": "819 Homestead",
+        "city": "New York",
+        "state": "FL",
+        "zip": "33030",
+        "phone": "18004277973",
+        "country": "United Kingdom",
+        "dateOfBirth": "12/03/1997",
+        "registeredDate": null,
+        "registrationComple": 0
+    },
+    {
+        "firstName": "Arthur",
+        "lastName": "Morgan",
+        "email": "james_miller1735059712519@freesourcecodes.com",
+        "password": "qVxQ,uSaCG?%.rR",
+        "imageUrl": null,
+        "emailVerified": null,
+        "streetAddress": "819 Homestead",
+        "city": "Toronto",
+        "state": "Ontario",
+        "zip": "33030",
+        "phone": "18004277973",
+        "country": "Canada",
+        "dateOfBirth": "12/03/1997",
+        "registeredDate": null,
+        "registrationComple": 0
+    },
+    {
+        "firstName": "James",
+        "lastName": "Miller",
+        "email": "james_miller1735059712519@freesourcecodes.com",
+        "password": "qVxQ,uSaCG?%.rR",
+        "imageUrl": null,
+        "emailVerified": null,
+        "streetAddress": "819 Homestead",
+        "city": "New York",
+        "state": "FL",
+        "zip": "33030",
+        "phone": "18004277973",
+        "country": "United States",
+        "dateOfBirth": "12/03/1997",
+        "registeredDate": null,
+        "registrationComple": 0
+    }
+]

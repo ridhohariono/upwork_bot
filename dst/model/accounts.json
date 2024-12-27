@@ -1,0 +1,24 @@
+[
+    {
+        "firstName": "Apalah",
+        "lastNAme": "siapaCobe",
+        "email": null,
+        "password": null,
+        "imageUrl": null,
+        "emailVerified": null,
+        "country": null,
+        "registeredDate": null,
+        "registrationComple": 0
+    },
+    {
+        "firstName": "Apanda",
+        "lastNAme": "laka",
+        "email": null,
+        "password": null,
+        "imageUrl": null,
+        "emailVerified": null,
+        "country": null,
+        "registeredDate": null,
+        "registrationComple": 0
+    }
+]
