@@ -244,10 +244,7 @@ let uploadPhoto = async (page: Page) => {
     await randomMouseMove(page);
     await page.waitForSelector("input[id*='image-crop']", { visible: true });
     const inputFile = await page.$("input[id*='image-crop']");
-    await inputFile?.uploadFile(
-      "D:/Learn/Automation/upwork_automation/src/assets/pp2.jpg"
-    );
-    // D:\Learn\Automation\upwork_automation\src\assets\images.jpg
+    await inputFile?.uploadFile(`${__dirname}/src/assets/pp2.jpg`);
     await inputFile?.evaluate((upload) =>
       upload.dispatchEvent(new Event("change", { bubbles: true }))
     );

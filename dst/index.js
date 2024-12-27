@@ -239,8 +239,7 @@ let uploadPhoto = async (page) => {
         await (0, helper_1.randomMouseMove)(page);
         await page.waitForSelector("input[id*='image-crop']", { visible: true });
         const inputFile = await page.$("input[id*='image-crop']");
-        await inputFile?.uploadFile("D:/Learn/Automation/upwork_automation/src/assets/pp2.jpg");
-        // D:\Learn\Automation\upwork_automation\src\assets\images.jpg
+        await inputFile?.uploadFile(`${__dirname}/src/assets/pp2.jpg`);
         await inputFile?.evaluate((upload) => upload.dispatchEvent(new Event("change", { bubbles: true })));
         await page.waitForNetworkIdle();
         await (0, helper_1.randomMouseMove)(page);
@@ -449,9 +448,6 @@ let startUpwork = async () => {
  *
  */
 let main = async () => {
-    //   const proxy = new Proxy();
-    //   const proxyData = await proxy.getProxyList("ua");
-    //   await page.goto("https://httpbin.org/ip");
     await startUpwork();
 };
 main(); //bootstrap
